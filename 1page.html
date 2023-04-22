@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy leisure</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+    
+        header {
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        
+        .logo {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        
+        nav {
+            display: flex;
+            align-items: center;
+        }
+
+            nav a {
+                color: #fff;
+                text-decoration: none;
+                margin-left: 20px;
+                font-size: 1.2rem;
+                font-weight: bold;
+            }
+
+        
+        button {
+            background-color: #fff;
+            border: none;
+            color: #000;
+            font-size: 18px;
+            padding: 12px 24px;
+            margin-top: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .main-section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url("https://source.unsplash.com/1600x900/?beach");
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+        }
+
+            .main-section h1 {
+                font-size: 4rem;
+                color: #fff;
+                text-shadow: 2px 2px #333;
+                margin-bottom: 20px;
+            }
+
+            .main-section p {
+                font-size: 1.5rem;
+                color: #fff;
+                text-shadow: 2px 2px #333;
+            }
+
+        
+        .content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+            .content h2 {
+                font-size: 36px;
+                text-align: center;
+            }
+
+        .property {
+            margin-top: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+            .property img {
+                width: 400px;
+                height: 300px;
+                object-fit: cover;
+                border-radius: 5px;
+                margin-right: 20px;
+            }
+
+            .property h3 {
+                font-size: 24px;
+                margin: 0;
+            }
+
+            .property p {
+                font-size: 18px;
+                margin-top: 10px;
+            }
+
+            .property button {
+                background-color: #fff;
+                border: 2px solid #000;
+                color: #000;
+                font-size: 18px;
+                padding: 10px 20px;
+                margin-top: 20px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+            }
+
+                .property button:hover,
+                .property button:focus {
+                    background-color: #000;
+                    color: #fff;
+                }
+
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+        }
+
+            footer p {
+                font-size: 1.2rem;
+                font-weight: bold;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Easy leisure</div>
+        <nav>
+            <a href="#">Главная</a>
+            <a href="onas.html">Контакты</a>
+        </nav>
+    </header>
+
+    <section class="main-section">
+        <h1>Аренда жилья у моря</h1>
+        <p>Выберите свой отдых уже сегодня!</p>
+        <p>Наши объекты у моря вы можете посмотреть ниже</p>
+    </section>
+    <div class="content">
+        <h2>Наши объекты</h2>
+        <div class="property">
+            <img src="https://source.unsplash.com/500x400/?beach-house" alt="Дом на пляже">
+            <h3>Дом на пляже</h3>
+            <p>Уютный домик всего в нескольких метрах от пляжа. Идеально подходит для семейного отдыха</p>
+            <button name="write" class="j-submit-report" onclick="window.location.href='bron1.html' ">Забронировать</button>
+        </div>
+        <div class="property">
+            <img src="https://source.unsplash.com/500x400/?beach-apartment" alt="Квартира у пляжа">
+            <h3>Квартира у пляжа</h3>
+            <p>Просторная квартира с видом на море. Отличный вариант для отдыха с друзьями.</p>
+
+                
+            <button name="write" class="j-submit-report" onclick="window.location.href='bron2.html'">Забронировать</button>
+        </div>
+
+        <div class="property">
+            <img src="https://source.unsplash.com/500x400/?beach-villa" alt="Вилла на пляже">
+            <h3>Вилла на пляже</h3>
+            <p>Роскошная вилла с бассейном на берегу моря. Подарите себе незабываемый отдых.</p>
+
+            
+            <button name="write" class="j-submit-report" onclick="window.location.href='bron3.html'">Забронировать</button>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Аренда жилья</p>
+    </footer>
+</body>
+</html>

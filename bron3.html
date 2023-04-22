@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy leisure</title>
+    <style>
+      
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+    
+        header {
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        
+        .logo {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        
+        nav {
+            display: flex;
+            align-items: center;
+        }
+
+            nav a {
+                color: #fff;
+                text-decoration: none;
+                margin-left: 20px;
+                font-size: 1.2rem;
+                font-weight: bold;
+            }
+
+        
+        button {
+            background-color: #fff;
+            border: none;
+            color: #000;
+            font-size: 18px;
+            padding: 12px 24px;
+            margin-top: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .main-section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url("https://source.unsplash.com/1600x900/?beach");
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+        }
+
+            .main-section h1 {
+                font-size: 4rem;
+                color: #fff;
+                text-shadow: 2px 2px #333;
+                margin-bottom: 20px;
+            }
+
+            .main-section p {
+                font-size: 1.5rem;
+                color: #fff;
+                text-shadow: 2px 2px #333;
+            }
+
+        
+        .content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+            .content h2 {
+                font-size: 36px;
+                text-align: center;
+            }
+
+        .property {
+            margin-top: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+            .property img {
+                width: 400px;
+                height: 300px;
+                object-fit: cover;
+                border-radius: 5px;
+                margin-right: 20px;
+            }
+
+            .property h3 {
+                font-size: 24px;
+                margin: 0;
+            }
+
+            .property p {
+                font-size: 18px;
+                margin-top: 10px;
+            }
+
+            .property button {
+                background-color: #fff;
+                border: 2px solid #000;
+                color: #000;
+                font-size: 18px;
+                padding: 10px 20px;
+                margin-top: 20px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+            }
+
+                .property button:hover,
+                .property button:focus {
+                    background-color: #000;
+                    color: #fff;
+                }
+
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+        }
+
+            footer p {
+                font-size: 1.2rem;
+                font-weight: bold;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Easy leisure</div>
+        <nav>
+            <a href="1page.html">Главная</a>
+            <a href="onas.html">Контакты</a>
+        </nav>
+    </header>
+
+    <section class="main-section">
+        <h1>Аренда жилья у моря</h1>
+        <p>Выберите свой отдых уже сегодня!</p>
+        <p>Наши объекты у моря вы можете посмотреть ниже</p>
+    </section>
+    <div class="content">
+        <h2>Аренда - виллы на пляже</h2>
+        <h2>Свободные даты:</h2>
+        <h2>12.04.23-30.06.23</h2>
+        <img src="https://source.unsplash.com/700x500/?beach-villa" alt="Вилла на пляже">
+        <h2>Мы позвоним вам для уточнения подходящего жилья для аренды</h2>
+
+        <p .property>
+            Имя:   <input name="Name" type="text">
+            Фамилия:   <input name="Surname" type="text">
+            Номер телефона:   <input name="Name" type="text">
+            <Button onclick="alert('Информация принята, мы свяжемся с вами')">Принять</Button>
+        </p>        
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Аренда жилья</p>
+    </footer>
+</body>
+</html>
